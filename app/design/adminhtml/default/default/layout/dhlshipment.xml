@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <dhlshipment_adminhtml_dhlshipment_index>
+        <reference name="content">
+            <block type="dhlshipment/adminhtml_dhlshipment" name="dhlshipment" />
+        </reference>
+    </dhlshipment_adminhtml_dhlshipment_index>
+</layout>

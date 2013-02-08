@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+			<dhlshipment module="dhlshipment">
+				<title>DHL</title>
+				<sort_order>71</sort_order>               
+				<children>
+					<items module="dhlshipment">
+						<title>Manage Shipment Order</title>
+						<sort_order>0</sort_order>
+						<action>dhlshipment/adminhtml_dhlshipment</action>
+					</items>
+				</children>
+			</dhlshipment>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<Dhl_Dhlshipment>
+							<title>Dhlshipment Module</title>
+							<sort_order>10</sort_order>
+						</Dhl_Dhlshipment>
+						<system>
+							<children>
+								<config>
+									<children>
+										<dhlshipment translate="title" module="dhlshipment"> 
+											<title>Banner Slider Settings</title>
+											<sort_order>50</sort_order>
+										</dhlshipment>
+									</children>							
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+</config>

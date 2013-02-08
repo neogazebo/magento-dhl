@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Dhl_Dhlshipment>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Dhl_Dhlshipment>
+	</modules>
+</config>

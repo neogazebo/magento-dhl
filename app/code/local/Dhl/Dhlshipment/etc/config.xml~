@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+<!-- declare module's version information -->
+    <Technolyze_Dhl>
+<!-- this version number will be used for database upgrades -->
+      <version>0.1.0</version>
+    </Technolyze_Dhl>
+  </modules>
+ 
+  <global>
+<!-- declare model group for new module -->
+    <models>
+<!-- model group alias to be used in Mage::getModel() -->
+      <dhl>
+<!-- base class name for the model group -->
+        <class>Technolyze_Dhl_Model</class>
+      </dhl>
+    </models>
+ 
+<!-- declare resource setup for new module -->
+    <resources>
+<!-- resource identifier -->
+      <dhl_setup>
+<!-- specify that this resource is a setup resource and used for upgrades -->
+        <setup>
+<!-- which module to look for install/upgrade files in -->
+          <module>Technolyze_Dhl</module>
+        </setup>
+<!-- specify database connection for this resource -->
+        <connection>
+<!-- do not create new connection, use predefined core setup connection -->
+          <use>core_setup</use>
+        </connection>
+      </dhl_setup>
+    </resources>
+  </global>
+</config>

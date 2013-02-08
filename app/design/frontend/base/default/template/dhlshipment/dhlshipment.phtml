@@ -1,0 +1,21 @@
+<style type="text/css">
+	.tbltrackingawb th{
+		font-weight: bold;
+		padding: 5px;
+		border:1px solid #ccc;
+	}
+	.tbltrackingawb td{
+		padding: 5px;
+		border:1px solid #ccc;
+	}
+</style>
+<form method="post">
+	<label>Check your awb : </label>
+	<input type="text" name="awb" />
+	<input type="submit" name="b-submit" />  
+</form>
+<div class="clear"></div>
+<?php
+	$this->getGenerateAwb();
+?>
+<div class="clear"></div>

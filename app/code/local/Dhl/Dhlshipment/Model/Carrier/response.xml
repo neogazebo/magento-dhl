@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+	<GetQuoteResponse>
+		<Response>
+			<ServiceHeader>
+				<MessageTime>2012-07-25T04:15:52.338+00:00</MessageTime>
+				<MessageReference>3412394424648695434261261272299</MessageReference>
+				<SiteID>APMediaM9</SiteID>
+			</ServiceHeader>
+		</Response>
+		<Note>
+			<Condition>
+				<ConditionCode>3006</ConditionCode>
+				<ConditionData>The destination zip code could not be found please check your destination zip code parameter.</ConditionData>
+			</Condition>
+		</Note>
+	</GetQuoteResponse>
+</res:DCTResponse>
+"

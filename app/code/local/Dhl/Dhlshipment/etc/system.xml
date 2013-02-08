@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<dhl translate="label">
+			<label>Dhl Extension</label>
+			<sort_order>400</sort_order>
+		</dhl>
+	</tabs>
+	<sections>
+		<carriers>
+			<groups>
+				<dhlshipment translate="label">
+					<label>DHL Shipment</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>101</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<active translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</active>
+						<gateway_url translate="label">
+							<label>Gateway URL</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</gateway_url>
+						<id translate="label">
+							<label>Access ID</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</id>
+						<password translate="label">
+							<label>Password</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</password>
+						<name translate="label">
+							<label>Method name</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</name>
+						<payment_country translate="label">
+							<label>Payment country code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</payment_country>
+						<ready_time_gmt translate="label">
+							<label>GMT</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</ready_time_gmt>
+						<weight_unit translate="label">
+							<label>Weight unit</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</weight_unit>
+						<dimension_unit translate="label">
+							<label>Dimension Unit</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</dimension_unit>
+						<payment_account_number translate="label">
+							<label>Payment  Account number</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</payment_account_number>
+						<network_type_code translate="label">
+							<label>Network Type code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</network_type_code>
+						<duitable_flag translate="label">
+							<label>Dutiable Flag</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</duitable_flag>
+						<dutiable_currency translate="label">
+							<label>Dutiable Currency</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</dutiable_currency>
+						<show_payment translate="label">
+							<label>Show Payment</label>
+							<frontend_type>select</frontend_type>
+							<source_model>dhlshipment/carrier_source_showpayment</source_model>
+							<sort_order>4</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</show_payment>
+						<handling_fee translate="label">
+							<label>Handling Fee</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>8</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</handling_fee>
+						<sort_order translate="label">
+							<label>Sort order</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>100</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</sort_order>
+						<title translate="label">
+							<label>Title</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</title>
+						<sallowspecific translate="label">
+							<label>Ship to applicable countries</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>90</sort_order>
+							<frontend_class>shipping-applicable-country</frontend_class>
+							<source_model>adminhtml/system_config_source_shipping_allspecificcountries</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</sallowspecific>
+						<specificcountry translate="label">
+							<label>Ship to Specific countries</label>
+							<frontend_type>multiselect</frontend_type>
+							<sort_order>91</sort_order>
+							<source_model>adminhtml/system_config_source_country</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</specificcountry>
+<!--						<shipment_type translate="label">
+							<label>Shipment Type</label>
+							<frontend_type>select</frontend_type>
+							<source_model>dhlshipment/carrier_source_type</source_model>
+							<sort_order>160</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</shipment_type>-->
+						<allowed_methods translate="label">
+							<label>Allowed Methods Multiple</label>
+							<frontend_type>multiselect</frontend_type>
+							<source_model>dhlshipment/carrier_source_method</source_model>
+							<sort_order>170</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<can_be_empty>1</can_be_empty>
+						</allowed_methods>
+						<global_product_code translate="label">
+							<label>Global product code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>171</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</global_product_code>
+						<transit_time translate="label">
+							<label>Enabled Transit Time</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>172</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</transit_time>
+						<add_transit_day translate="label">
+							<label>Add Transit Days</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>173</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</add_transit_day>
+						<showmethod translate="label">
+							<label>Show method if not applicable</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>92</sort_order>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</showmethod>
+						<specificerrmsg translate="label">
+							<label>Displayed Error Message</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>80</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</specificerrmsg>
+						<infotext translate="label">
+							<label>Info Text</label>
+							<frontend_type>editor</frontend_type>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</infotext>
+						<xml_debug translate="label">
+							<label>Xml Debug</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>177</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</xml_debug>
+						<credit_memo_return translate="label">
+							<label>Credit Memo</label>
+							<frontend_type>select</frontend_type>
+							<source_model>dhlshipment/carrier_source_creditmemoreturn</source_model>
+							<sort_order>178</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</credit_memo_return>
+<!--						<outbound translate="label">
+							<label>Outbound account number</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>179</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</outbound>-->
+						<inbound translate="label">
+							<label>Inbound account number</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>180</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</inbound><!--
+						<duty_account_number translate="label">
+							<label>Duty account number</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>180</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</duty_account_number>
+						<payer translate="label">
+							<label>Payer account number</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>180</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</payer>-->
+<!--						pickup-->
+						<account_type translate="label">
+							<label>Account Type</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</account_type>
+						<phone_extention translate="label">
+							<label>Phone Extention</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</phone_extention>
+						<location_type translate="label">
+							<label>Location Type</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</location_type>
+						<ready_by_time translate="label">
+							<label>Ready By Time</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</ready_by_time>
+						<close_time translate="label">
+							<label>Close Time</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</close_time>
+						<after_hours_closing_time translate="label">
+							<label>After Hours Closing Time</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</after_hours_closing_time>
+						<after_hours_location translate="label">
+							<label>After Hours Location</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</after_hours_location>
+						<pickup_contact_name translate="label">
+							<label>Pickup Contact Name</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pickup_contact_name>
+						<pickup_contact_phone translate="label">
+							<label>Pickup Contact Phone</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pickup_contact_phone>
+						<pickup_contact_phone_extention translate="label">
+							<label>Pickup Contact Phone Extention</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pickup_contact_phone_extention>
+						<door_to translate="label">
+							<label>Door To</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>190</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</door_to>
+						<pdf_email_subject translate="label">
+							<label>Email Subject</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>191</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pdf_email_subject>
+						<pdf_email_from translate="label">
+							<label>Email From</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>191</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pdf_email_from>
+						<pdf_email_body translate="label">
+							<label>Email Body (supports HTML)</label>
+							<frontend_type>editor</frontend_type>
+							<sort_order>191</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</pdf_email_body>
+					</fields>
+				</dhlshipment>								
+			</groups>
+		</carriers>
+	</sections>
+	<model translate="label">
+		<label>Model</label>
+		<frontend_type>text</frontend_type>
+		<sort_order>900</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+	</model>
+</config>
